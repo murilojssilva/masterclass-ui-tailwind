@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <body className="bg-zinc-900">
         <Sidebar />
-        <div className="ml-80 relative h-screen mx-auto">
+        <div className="lg:ml-80 relative h-screen mx-auto">
           <Header />
           <HeroPattern />
 
